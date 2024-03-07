@@ -21,4 +21,7 @@ const paragraph = document.createElement("p");
 // planning so much and instead focusing on relaxing. Taking a break at all is
 // so stressful these days; why add to the stress by overworking yourself?";
 
+const aside = document.createElement("aside");
+const asidePara = document.createElement("p");
+
 
