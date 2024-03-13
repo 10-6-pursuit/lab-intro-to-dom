@@ -37,3 +37,25 @@ p2.append(span);
 span.append(" 4 Minutes");
 p2.append(a);
 
+let article2 = document.querySelectorAll("section.posts article");
+
+
+article2[0].remove();
+article2[1].remove();
+
+sectionPost.append(article2[1]);
+sectionPost.append(article2[0]);
+
+
+// Delete the All Posts
+article.remove();
+
+let ul = document.querySelectorAll("header a");
+
+ul[0].remove();
+
+// Delete the first span of section .featured
+let allSpan = document.querySelectorAll("section.featured span");
+
+allSpan[0].remove();
+
