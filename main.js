@@ -10,7 +10,8 @@ let p2 = document.createElement("p");
 let span = document.createElement("span");
 let strong = document.createElement("strong");
 let a = document.createElement("a");
-
+let first = document.getElementById("first");
+let second = document.getElementById("second");
 
 img.setAttribute("src","./images/paul-gilmore-unsplash.jpg");
 
@@ -35,3 +36,6 @@ p2.append(span);
 span.append(strong)
 span.append(" 4 minutes");
 p2.append(a);
+first.remove();
+sectionPost.append(first);
+article.remove()
