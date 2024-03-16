@@ -20,7 +20,7 @@ Begin by creating a `main.js` file. Then, connect that file to the `index.html` 
 
 To complete this lab, you will need to create and update a number of elements using JavaScript. You _should not_ edit the HTML at all. You can see what the final view of the web page should be at the bottom of this document.
 
-- [ ] Add a class of "featured" to the first `section` element on the page.
+- [X] Add a class of "featured" to the first `section` element on the page.
 - [ ] Create the following `article` element with JavaScript and add at the end of the `section.posts` element.
 
 ```html
