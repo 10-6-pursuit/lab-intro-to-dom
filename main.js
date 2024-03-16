@@ -41,3 +41,7 @@ sectionPost.append(first);
 article.remove();
 let span1 = document.querySelector(".featured span");
 span1.remove()
+const allNonFeaturedArticles = document.querySelectorAll(".posts h3");
+for(let art of allNonFeaturedArticles){
+    art.remove();
+}
