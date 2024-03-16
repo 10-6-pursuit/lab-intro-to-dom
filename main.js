@@ -36,4 +36,7 @@ const firstAsideP = document.querySelector("aside > p");
 
 const firstSpan = document.querySelector("span");
 
-firstAsideP.removeChild(firstSpan)
+firstAsideP.removeChild(firstSpan);
+
+const allPostLinks = document.querySelector("li");
+allPostLinks.remove();
