@@ -30,7 +30,7 @@ allPosts.remove();
 const readTime = document.querySelector("span");
 readTime.remove();
 
-const lastPost = document.querySelectorAll("article")[2];
+const lastPost = document.querySelectorAll("article")[3];
 lastPost.remove();
 
 const titles = document.querySelectorAll("h3");
