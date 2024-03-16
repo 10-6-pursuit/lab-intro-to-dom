@@ -1,8 +1,8 @@
 const firstSection = document.querySelector("section");
 firstSection.classList.add("featured");
 
-const sectionPostsArticle = document.createElement("article")
-sectionPostsArticle.innerHTML = `<article>
+const sectionPostsArticle3 = document.createElement("article")
+sectionPostsArticle3.innerHTML = `<article>
 <img
   src="./images/paul-gilmore-unsplash.jpg"
   alt="Image of a mountain in front of a lake."
@@ -22,4 +22,8 @@ sectionPostsArticle.innerHTML = `<article>
 </article>`
 
 const sectionPosts = document.querySelector(".posts");
-sectionPosts.appendChild(sectionPostsArticle);
+sectionPosts.appendChild(sectionPostsArticle3);
+
+const sectionPostsArticles = sectionPosts.querySelectorAll("article");
+sectionPosts.insertBefore(sectionPostsArticles[1], sectionPostsArticles[0]);
+
