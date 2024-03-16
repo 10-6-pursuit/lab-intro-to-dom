@@ -30,3 +30,6 @@ sectionPosts.insertBefore(sectionPostsArticles[1], sectionPostsArticles[0]);
 document.querySelector("a").remove();
 document.querySelector("span").remove();
 sectionPostsArticle3.remove();
+const titlesToDelete = document.querySelectorAll("h3");
+titlesToDelete[0].remove();
+titlesToDelete[1].remove();
