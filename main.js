@@ -29,3 +29,4 @@ sectionPosts.insertBefore(sectionPostsArticles[1], sectionPostsArticles[0]);
 
 document.querySelector("a").remove();
 document.querySelector("span").remove();
+sectionPostsArticle3.remove();
