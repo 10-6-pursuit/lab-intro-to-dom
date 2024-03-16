@@ -27,3 +27,4 @@ sectionPosts.appendChild(sectionPostsArticle3);
 const sectionPostsArticles = sectionPosts.querySelectorAll("article");
 sectionPosts.insertBefore(sectionPostsArticles[1], sectionPostsArticles[0]);
 
+document.querySelector("a").remove();
